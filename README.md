@@ -1,8 +1,7 @@
-# React + Vite
+# Smartwatch Ecommerce 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Smartwatch Ecommerce is a sleek and modern e-commerce website designed for showcasing and selling smartwatches. Built with a responsive and user-friendly interface, the website offers seamless navigation, product browsing, and an intuitive shopping experience. The design emphasizes high-quality visuals, clean layouts, and interactive elements to enhance user engagement.
 
-Currently, two official plugins are available:
+ - Screen Viduo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[screen-capture (3).webm](https://github.com/user-attachments/assets/80ddb0d7-89d0-4f44-bd57-5d5f6da0f0ea)
