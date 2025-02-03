@@ -19,11 +19,11 @@ const DarkMode = () => {
         }
     }, [theme]);
     return (
-      <div>
+      <div className="relative">
         <img
           src={lightPng}
           alt=""
-          onClick={() => setTheme(theme === "darl" ? "light" : "dark")}
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className={`absolute right-0 z-10 w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${
             theme === "dark" ? "opacity-0" : "opacity-100"
           }`}
@@ -31,11 +31,11 @@ const DarkMode = () => {
         <img
           src={darkPng}
           alt=""
-          onClick={() => setTheme(theme === "darl" ? "light" : "dark")}
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300"
         />
       </div>
     );
-};
+}; 
 
 export default DarkMode;

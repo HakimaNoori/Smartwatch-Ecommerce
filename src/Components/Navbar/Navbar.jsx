@@ -34,22 +34,22 @@ const DropdownLinks = [
 const Navbar = () => {
   return (
     <>
-      <div className="w-full bg-white dark:bg-black">
+      <div className="shadow-md w-full bg-white dark:bg-gray-900 duration-200 relative z-40">
         <div className="container py-3 md:py-0">
           <div className="flex justify-between items-center">
               {/* logo section */}
               <div>
-                <a href="#" className="flex items-center text-2xl sm:text-3xl">
+                <a href="#" className="flex items-center text-2xl sm:text-3xl gap-2">
                   <img src={Logo} alt="logo" className="w-10" />
                   <span className="font-bold">Watch</span>Store
                 </a>
               </div>
             {/* Menu section */}
-            <div className="flex justify-between items-center gap-2">
+            <div className="flex justify-between items-center gap-2 lg:gap-8">
               <div>
                 <DarkMode/>
               </div>
-              <ul className="flex gap-4 items-center">
+              <ul className="hidden md:flex gap-4 items-center">
                 {Menu.map((menu) => (
                   <li key={menu.id}>
                     <a
