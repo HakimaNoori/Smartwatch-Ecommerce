@@ -42,7 +42,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="min-h-[550px] sm:min-h-[700px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white ">
+      <div className="min-h-[550px] sm:min-h-[700px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 relative ">
         {/* background asset */}
         <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9"></div>
         <div className="container p-8 sm:pb-0">
@@ -88,7 +88,7 @@ const Hero = () => {
                       <p className="text-sm">{item.tag}</p>
                     </div>
                   </div>
-                ))}
+                ))}     
               </div>
             </div>
             {/* image content section */}
